@@ -1,0 +1,81 @@
+[19-Dec-2023 17:40:15 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php:2833
+Stack trace:
+#0 /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php(2833): preg_match('#(image|audio|v...', Array)
+#1 /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php(3113): discover_pingback_server_uri('http://www.okee...')
+#2 /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php(2905): pingback('<ol>\n \t<li>Non ...', Object(WP_Post))
+#3 /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-hook.php(322): do_all_pingbacks()
+#4 /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/evan/Local Sites/csvalence/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php(2884): do_action('do_all_pings')
+#7 /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-hook.php(322): do_all_pings()
+#8 /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/evan/Local Sites/csvalence/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /home/evan/Local Sites/csvalence/app/public/wp-cron.php(191): do_action_ref_array('do_pings', Array)
+#11 {main}
+  thrown in /home/evan/Local Sites/csvalence/app/public/wp-includes/comment.php on line 2833
+[20-Dec-2023 08:31:28 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[20-Dec-2023 10:41:58 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[22-Dec-2023 13:38:54 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-includes/update.php on line 211
+[22-Dec-2023 13:38:54 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-includes/update.php on line 449
+[22-Dec-2023 13:38:54 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-includes/update.php on line 730
+[20-Jan-2024 16:05:02 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-includes/update.php on line 449
+[20-Jan-2024 16:05:02 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-includes/update.php on line 730
+[20-Jan-2024 16:05:05 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-admin/includes/update.php on line 154
+[20-Jan-2024 16:11:32 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /home/evan/Local Sites/csvalence/app/public/wp-admin/includes/translation-install.php on line 68
+[02-Nov-2024 13:38:36 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[13-Jan-2025 21:02:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20210902
+PHP    compiled with module API=20220829
+These options need to match
+ in Unknown on line 0
+[13-Jan-2025 21:02:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20210902
+PHP    compiled with module API=20220829
+These options need to match
+ in Unknown on line 0
+[13-Jan-2025 21:02:59 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[13-Jan-2025 21:03:35 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20220829
+PHP    compiled with module API=20230831
+These options need to match
+ in Unknown on line 0
+[13-Jan-2025 21:12:47 UTC] PHP Warning:  require(/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php): Failed to open stream: No such file or directory in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[13-Jan-2025 21:12:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php:22
+Stack trace:
+#0 /home/evan/Local Sites/csvalence/app/public/wp-settings.php(672): include()
+#1 /home/evan/Local Sites/csvalence/app/public/wp-config.php(103): require_once('/home/evan/Loca...')
+#2 /home/evan/Local Sites/csvalence/app/public/wp-load.php(50): require_once('/home/evan/Loca...')
+#3 /home/evan/Local Sites/csvalence/app/public/wp-admin/admin-ajax.php(22): require_once('/home/evan/Loca...')
+#4 {main}
+  thrown in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[13-Jan-2025 21:12:47 UTC] PHP Warning:  Trying to access array offset on false in /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[13-Jan-2025 21:12:47 UTC] PHP Warning:  Trying to access array offset on false in /home/evan/Local Sites/csvalence/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[13-Jan-2025 21:13:25 UTC] PHP Warning:  require(/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php): Failed to open stream: No such file or directory in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[13-Jan-2025 21:13:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php:22
+Stack trace:
+#0 /home/evan/Local Sites/csvalence/app/public/wp-settings.php(672): include()
+#1 /home/evan/Local Sites/csvalence/app/public/wp-config.php(103): require_once('/home/evan/Loca...')
+#2 /home/evan/Local Sites/csvalence/app/public/wp-load.php(50): require_once('/home/evan/Loca...')
+#3 /home/evan/Local Sites/csvalence/app/public/wp-admin/admin.php(34): require_once('/home/evan/Loca...')
+#4 /home/evan/Local Sites/csvalence/app/public/wp-admin/themes.php(10): require_once('/home/evan/Loca...')
+#5 {main}
+  thrown in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[13-Jan-2025 21:13:25 UTC] PHP Warning:  require(/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php): Failed to open stream: No such file or directory in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[13-Jan-2025 21:13:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/inc/wordpress-shims.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php:22
+Stack trace:
+#0 /home/evan/Local Sites/csvalence/app/public/wp-settings.php(672): include()
+#1 /home/evan/Local Sites/csvalence/app/public/wp-config.php(103): require_once('/home/evan/Loca...')
+#2 /home/evan/Local Sites/csvalence/app/public/wp-load.php(50): require_once('/home/evan/Loca...')
+#3 /home/evan/Local Sites/csvalence/app/public/wp-blog-header.php(13): require_once('/home/evan/Loca...')
+#4 /home/evan/Local Sites/csvalence/app/public/index.php(17): require('/home/evan/Loca...')
+#5 {main}
+  thrown in /home/evan/Local Sites/csvalence/app/public/wp-content/themes/kadence-child/functions.php on line 22
+[23-Jan-2025 18:04:47 UTC] PHP Warning:  Undefined variable $category in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 6
+[23-Jan-2025 18:04:47 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 6
+[23-Jan-2025 18:04:47 UTC] PHP Warning:  Undefined variable $category in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 6
+[23-Jan-2025 18:04:47 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 6
+[23-Jan-2025 18:07:52 UTC] PHP Warning:  Array to string conversion in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 7
+[23-Jan-2025 18:07:52 UTC] PHP Warning:  Array to string conversion in /home/evan/Local Sites/csvalence/app/public/wp-content/plugins/menu-access-control/includes/menu-control.php on line 7
+[10-Feb-2025 21:25:04 UTC] PHP Warning:  Undefined array key "file" in /home/evan/Local Sites/csvalence/app/public/wp-includes/media.php on line 1763
+[10-Feb-2025 21:25:05 UTC] PHP Warning:  Undefined array key "file" in /home/evan/Local Sites/csvalence/app/public/wp-includes/media.php on line 1763
+[10-Feb-2025 21:25:07 UTC] PHP Warning:  Undefined array key "file" in /home/evan/Local Sites/csvalence/app/public/wp-includes/media.php on line 1763
